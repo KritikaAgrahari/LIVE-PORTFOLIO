@@ -7,9 +7,9 @@ import { Info } from "../User";
     <Modal.Overlay className="!backdrop-opacity-85 blur-sm" />
     <Modal.Content className="!rounded-3xl">
       <Modal.Header className="!bg-bgColor !border-primaryColor !border-2 !border-b-0 !rounded-tl-3xl !rounded-tr-3xl" >
-        <Modal.Title data-autofocus className="!text-4xl flex gap-3 items-center !font-bold" style={{ color: 'white' }}>Resume
-          <Tooltip label="Download"   className ="!text-bgColor" color="#64FFDA" position="right" offset={5}>
-          <ActionIcon className="text-primaryColor" component ="a" href="/Kritika Resume.pdf" download={Info.name} variant="outline"  color="#64FFDA" >
+        <Modal.Title data-autofocus className="!text-4xl flex gap-3 items-center !font-bold" style={{ color: '#48CAE4' }}>Resume
+          <Tooltip label="Download"   className ="!text-bgColor" color="#03045E" position="right" offset={5}>
+          <ActionIcon className="text-primaryColor" component ="a" href="/Kritika Resume.pdf" download={Info.name} variant="outline"  color="#03045E" >
             <IconArrowBigDownLineFilled />
           </ActionIcon>
           </Tooltip>

@@ -36,6 +36,8 @@ import { em } from "@mantine/core";
 import { useEffect, useState } from "react";
 
 const links=["About","Projects","Skills","Experience","Contact"];
+// const links=["About","Projects","Skills","Contact"];
+
 const navLinks=(col:Boolean, clicked:any)=>{
     const handleClick=()=>{
         if(clicked)clicked();
@@ -64,7 +66,7 @@ const Header=()=>{
 return (
     <nav className={`flex ${show?"translate-y-0":"-translate-y-28"} ${shadow?"shadow-[0px_10px_30px_-10px_#020c1b]":""} transition-transform duration-500 ease-in-out fixed w-full z-10 bg-bgColor h-28  px-10  justify-between items-center xs-mx:px-4 xs-mx:h-20 `}>
         
-        <IconHexagonLetterK className="z-10" size={isMobile?45:60} color="#64FFDA" stroke={1.25}/>
+        <IconHexagonLetterK className="z-10" size={isMobile?45:60} color="#03045E" stroke={1.25}/>
         <div className="bs:flex gap-8 hidden">
             {navLinks(false, null)}
         </div>

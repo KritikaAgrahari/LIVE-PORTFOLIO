@@ -51,9 +51,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bgColor: "#112240",
-        primaryColor: "#64FFDA",
-        textColor: "#8892B0"
+        bgColor: "#ADE8F4",
+        primaryColor: "#03045E",
+        textColor: "#0077B6"
       },
       animation: {
         backgroundPositionSpin:

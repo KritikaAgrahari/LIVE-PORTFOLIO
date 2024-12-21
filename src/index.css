@@ -43,7 +43,7 @@
 
 
  html{
-    --primary-color:"#64FFDA";
+    --primary-color:"#03045E";
     scroll-behavior: smooth;
  }
  ::-webkit-scrollbar-track
@@ -61,5 +61,5 @@
  ::-webkit-scrollbar-thumb
  {
    border-radius: 10px;
-   background-color: #64FFDA;
+   background-color: #03045E;
  }

@@ -5,7 +5,7 @@ import Header from "./Header"
 import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Experience from "./Experience";
+// import Experience from "./Experience";
 import Mail from "./Mail";
 import Social from "./Social";
 import Contact from "./Contact";
@@ -13,7 +13,7 @@ import Footer from "./Footer";
 import ResumeViwer from "./ResumeViewer";
 import { Loader } from "./Loader";
 import { Toaster } from "react-hot-toast";
-// import Experience from "./Experience";
+import Experience from "./Experience";
 const HomePage=()=>{
     const [loading, setLoading] = useState(true);
     useEffect(()=>{
